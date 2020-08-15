@@ -49,6 +49,7 @@
 		D41DF82524E7889B005696DF /* PresentCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41DF82924E7889B005696DF /* PresentCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentCounterUITests.swift; sourceTree = "<group>"; };
 		D41DF82B24E7889B005696DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41DF83724E7A0E7005696DF /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 				D41DF81224E7889B005696DF /* LaunchScreen.storyboard */,
 				D41DF81524E7889B005696DF /* Info.plist */,
 				D41DF80F24E7889B005696DF /* Preview Content */,
+				D41DF83724E7A0E7005696DF /* UserDefault.swift */,
 			);
 			path = PresentCounter;
 			sourceTree = "<group>";
@@ -434,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PresentCounter/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RMPRQX9U7;
@@ -445,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.PresentCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PresentCounter/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RMPRQX9U7;
@@ -465,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.PresentCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
