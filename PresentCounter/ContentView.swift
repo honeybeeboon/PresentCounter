@@ -56,15 +56,25 @@ struct ContentView: View {
                         .font(Font.custom("CourierNewPS-BoldItalicMT", size: 40.0))
                         .onTapGesture(count: 2) {
                             self.tamaCount = 0
+                            ContentView.tamaDisplay = "0"
                             self.patchCount = 0
+                            ContentView.patchDisplay = "0"
                             self.jinpeiCount = 0
+                            ContentView.jinpeiDisplay = "0"
                             self.mikacchiCount = 0
+                            ContentView.mikacchiDisplay = "0"
                             self.ramuneCount = 0
+                            ContentView.ramuneDisplay = "0"
                             self.bukeCount = 0
+                            ContentView.bukeDisplay = "0"
                             self.bintaCount = 0
+                            ContentView.bintaDisplay = "0"
                             self.ichigoCount = 0
+                            ContentView.ichigoDisplay = "0"
                             self.junCount = 0
+                            ContentView.junDisplay = "0"
                             self.jackCount = 0
+                            ContentView.jackDisplay = "0"
                     }
                     
                     HStack {
@@ -310,6 +320,8 @@ struct ContentView: View {
         }
     }
 }
+
+public reset() {
 
 @propertyWrapper
 struct UserDefault<T> {
