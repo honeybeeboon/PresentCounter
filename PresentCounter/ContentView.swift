@@ -99,6 +99,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.tamaCount = self.tamaCount  - 1
+                                    ContentView.tamaDisplay = String(self.tamaCount)
                             }
                         }.padding()
                         VStack{
@@ -122,6 +123,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.patchCount = self.patchCount  - 1
+                                    ContentView.patchDisplay = String(self.patchCount)
                             }
                         }.padding()
                         VStack{
@@ -145,6 +147,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.jinpeiCount = self.jinpeiCount  - 1
+                                    ContentView.jinpeiDisplay = String(self.jinpeiCount)
                             }
                         }.padding()
                     }.padding(-10)
@@ -170,6 +173,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.mikacchiCount = self.mikacchiCount  - 1
+                                    ContentView.mikacchiDisplay = String(self.mikacchiCount)
                             }
                         }.padding()
                         VStack{
@@ -193,6 +197,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.ramuneCount = self.ramuneCount - 1
+                                    ContentView.ramuneDisplay = String(self.ramuneCount)
                             }
                         }.padding()
                         VStack{
@@ -216,6 +221,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.bukeCount = self.bukeCount - 1
+                                    ContentView.bukeDisplay = String(self.bukeCount)
                             }
                         }.padding()
                     }.padding(-10)
@@ -241,6 +247,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.bintaCount = self.bintaCount  - 1
+                                    ContentView.bintaDisplay = String(self.bintaCount)
                             }
                         }.padding()
                         VStack{
@@ -264,6 +271,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.ichigoCount = self.ichigoCount - 1
+                                    ContentView.ichigoDisplay = String(self.ichigoCount)
                             }
                         }.padding()
                         VStack{
@@ -287,6 +295,8 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.junCount = self.junCount - 1
+                                    ContentView.junDisplay = String(self.junCount)
+                                    
                             }
                         }.padding()
                     }.padding(-10)
@@ -312,6 +322,7 @@ struct ContentView: View {
                                         return;
                                     }
                                     self.jackCount = self.jackCount - 1
+                                    ContentView.jackDisplay = String(self.jackCount)
                             }
                         }.padding()
                     }
