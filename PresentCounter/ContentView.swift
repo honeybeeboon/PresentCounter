@@ -321,8 +321,6 @@ struct ContentView: View {
     }
 }
 
-public reset() {
-
 @propertyWrapper
 struct UserDefault<T> {
     var key: String
